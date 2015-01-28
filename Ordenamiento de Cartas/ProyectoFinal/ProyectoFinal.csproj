@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C26FD710-F18F-499E-AA7A-D39506958D2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walking.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caminaf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2cg.png" />
+    <None Include="Resources\Ts1.png" />
+    <None Include="Resources\Th1.png" />
+    <None Include="Resources\Tdb1.png" />
+    <None Include="Resources\Tcg1.png" />
+    <None Include="Resources\Qs1.png" />
+    <None Include="Resources\Qh1.png" />
+    <None Include="Resources\Qdb1.png" />
+    <None Include="Resources\Qcg1.png" />
+    <None Include="Resources\Ks1.png" />
+    <None Include="Resources\Kh1.png" />
+    <None Include="Resources\Kdb1.png" />
+    <None Include="Resources\Kcg1.png" />
+    <None Include="Resources\Js1.png" />
+    <None Include="Resources\Jh1.png" />
+    <None Include="Resources\Jdb1.png" />
+    <None Include="Resources\Jcg1.png" />
+    <None Include="Resources\cartes.gif" />
+    <None Include="Resources\cartas.gif" />
+    <None Include="Resources\cards2.gif" />
+    <None Include="Resources\cards.gif" />
+    <None Include="Resources\baraja.gif" />
+    <None Include="Resources\As1.png" />
+    <None Include="Resources\Ah1.png" />
+    <None Include="Resources\Adb1.png" />
+    <None Include="Resources\Acg1.png" />
+    <None Include="Resources\9s1.png" />
+    <None Include="Resources\9h1.png" />
+    <None Include="Resources\9db1.png" />
+    <None Include="Resources\9cg1.png" />
+    <None Include="Resources\8s1.png" />
+    <None Include="Resources\8h1.png" />
+    <None Include="Resources\8db1.png" />
+    <None Include="Resources\8cg1.png" />
+    <None Include="Resources\7s1.png" />
+    <None Include="Resources\7h1.png" />
+    <None Include="Resources\7db1.png" />
+    <None Include="Resources\7cg1.png" />
+    <None Include="Resources\6s1.png" />
+    <None Include="Resources\6h1.png" />
+    <None Include="Resources\6db1.png" />
+    <None Include="Resources\6cg1.png" />
+    <None Include="Resources\5s1.png" />
+    <None Include="Resources\5h1.png" />
+    <None Include="Resources\5db1.png" />
+    <None Include="Resources\5cg1.png" />
+    <None Include="Resources\4s1.png" />
+    <None Include="Resources\4h1.png" />
+    <None Include="Resources\4db1.png" />
+    <None Include="Resources\4cg1.png" />
+    <None Include="Resources\3s1.png" />
+    <None Include="Resources\3h1.png" />
+    <None Include="Resources\3db1.png" />
+    <None Include="Resources\3cg1.png" />
+    <None Include="Resources\2s1.png" />
+    <None Include="Resources\2h1.png" />
+    <None Include="Resources\2db1.png" />
+    <None Include="Resources\2cg1.png" />
+    <Content Include="Resources\2db.png" />
+    <Content Include="Resources\2h.png" />
+    <Content Include="Resources\2s.png" />
+    <Content Include="Resources\3cg.png" />
+    <Content Include="Resources\3db.png" />
+    <Content Include="Resources\3h.png" />
+    <Content Include="Resources\3s.png" />
+    <Content Include="Resources\4cg.png" />
+    <Content Include="Resources\4db.png" />
+    <Content Include="Resources\4h.png" />
+    <Content Include="Resources\4s.png" />
+    <Content Include="Resources\5cg.png" />
+    <Content Include="Resources\5db.png" />
+    <Content Include="Resources\5h.png" />
+    <Content Include="Resources\5s.png" />
+    <Content Include="Resources\6cg.png" />
+    <Content Include="Resources\6db.png" />
+    <Content Include="Resources\6h.png" />
+    <Content Include="Resources\6s.png" />
+    <Content Include="Resources\7cg.png" />
+    <Content Include="Resources\7db.png" />
+    <Content Include="Resources\7h.png" />
+    <Content Include="Resources\7s.png" />
+    <Content Include="Resources\8cg.png" />
+    <Content Include="Resources\8db.png" />
+    <Content Include="Resources\8h.png" />
+    <Content Include="Resources\8s.png" />
+    <Content Include="Resources\9cg.png" />
+    <Content Include="Resources\9db.png" />
+    <Content Include="Resources\9h.png" />
+    <Content Include="Resources\9s.png" />
+    <Content Include="Resources\Acg.png" />
+    <Content Include="Resources\Adb.png" />
+    <Content Include="Resources\Ah.png" />
+    <Content Include="Resources\As.png" />
+    <None Include="Resources\casino.jpg" />
+    <Content Include="Resources\Jcg.png" />
+    <Content Include="Resources\Jdb.png" />
+    <Content Include="Resources\Jh.png" />
+    <Content Include="Resources\Js.png" />
+    <Content Include="Resources\Kcg.png" />
+    <Content Include="Resources\Kdb.png" />
+    <Content Include="Resources\Kh.png" />
+    <Content Include="Resources\Ks.png" />
+    <Content Include="Resources\Qcg.png" />
+    <Content Include="Resources\Qdb.png" />
+    <Content Include="Resources\Qh.png" />
+    <Content Include="Resources\Qs.png" />
+    <Content Include="Resources\Tcg.png" />
+    <Content Include="Resources\Tdb.png" />
+    <Content Include="Resources\Th.png" />
+    <Content Include="Resources\Ts.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
